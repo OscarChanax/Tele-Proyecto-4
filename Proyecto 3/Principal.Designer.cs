@@ -47,6 +47,10 @@
             this.labelValorhorizontal = new System.Windows.Forms.Label();
             this.labelValorvertical = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonDerecha = new System.Windows.Forms.Button();
+            this.buttonIzquierda = new System.Windows.Forms.Button();
+            this.buttonStop = new System.Windows.Forms.Button();
+            this.buttonAtras = new System.Windows.Forms.Button();
             this.buttonAdelante = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -75,7 +79,7 @@
             // textBoxIP
             // 
             this.textBoxIP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxIP.Location = new System.Drawing.Point(42, 187);
+            this.textBoxIP.Location = new System.Drawing.Point(45, 197);
             this.textBoxIP.Name = "textBoxIP";
             this.textBoxIP.Size = new System.Drawing.Size(139, 27);
             this.textBoxIP.TabIndex = 5;
@@ -94,7 +98,7 @@
             this.buttonConectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonConectar.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonConectar.ForeColor = System.Drawing.Color.White;
-            this.buttonConectar.Location = new System.Drawing.Point(34, 227);
+            this.buttonConectar.Location = new System.Drawing.Point(34, 239);
             this.buttonConectar.Name = "buttonConectar";
             this.buttonConectar.Size = new System.Drawing.Size(159, 47);
             this.buttonConectar.TabIndex = 4;
@@ -118,7 +122,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Upbolters New", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(66, 152);
+            this.label1.Location = new System.Drawing.Point(68, 156);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 24);
             this.label1.TabIndex = 3;
@@ -132,7 +136,7 @@
             this.buttonDesconectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDesconectar.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDesconectar.ForeColor = System.Drawing.Color.White;
-            this.buttonDesconectar.Location = new System.Drawing.Point(34, 296);
+            this.buttonDesconectar.Location = new System.Drawing.Point(34, 308);
             this.buttonDesconectar.Name = "buttonDesconectar";
             this.buttonDesconectar.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.buttonDesconectar.Size = new System.Drawing.Size(159, 47);
@@ -208,7 +212,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(135, 179);
+            this.button1.Location = new System.Drawing.Point(112, 11);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 49);
             this.button1.TabIndex = 0;
@@ -223,7 +227,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(320, 179);
+            this.button2.Location = new System.Drawing.Point(360, 8);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 49);
             this.button2.TabIndex = 1;
@@ -236,7 +240,7 @@
             this.labelValorhorizontal.AutoSize = true;
             this.labelValorhorizontal.Font = new System.Drawing.Font("Upbolters New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelValorhorizontal.ForeColor = System.Drawing.Color.White;
-            this.labelValorhorizontal.Location = new System.Drawing.Point(132, 22);
+            this.labelValorhorizontal.Location = new System.Drawing.Point(97, 99);
             this.labelValorhorizontal.Name = "labelValorhorizontal";
             this.labelValorhorizontal.Size = new System.Drawing.Size(52, 17);
             this.labelValorhorizontal.TabIndex = 3;
@@ -247,7 +251,7 @@
             this.labelValorvertical.AutoSize = true;
             this.labelValorvertical.Font = new System.Drawing.Font("Upbolters New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelValorvertical.ForeColor = System.Drawing.Color.White;
-            this.labelValorvertical.Location = new System.Drawing.Point(421, 38);
+            this.labelValorvertical.Location = new System.Drawing.Point(422, 97);
             this.labelValorvertical.Name = "labelValorvertical";
             this.labelValorvertical.Size = new System.Drawing.Size(55, 19);
             this.labelValorvertical.TabIndex = 4;
@@ -256,6 +260,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panel2.Controls.Add(this.buttonDerecha);
+            this.panel2.Controls.Add(this.buttonIzquierda);
+            this.panel2.Controls.Add(this.buttonStop);
+            this.panel2.Controls.Add(this.buttonAtras);
             this.panel2.Controls.Add(this.buttonAdelante);
             this.panel2.Controls.Add(this.labelValorvertical);
             this.panel2.Controls.Add(this.labelValorhorizontal);
@@ -267,14 +275,75 @@
             this.panel2.Size = new System.Drawing.Size(580, 370);
             this.panel2.TabIndex = 3;
             // 
+            // buttonDerecha
+            // 
+            this.buttonDerecha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(51)))));
+            this.buttonDerecha.FlatAppearance.BorderSize = 0;
+            this.buttonDerecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDerecha.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDerecha.ForeColor = System.Drawing.Color.White;
+            this.buttonDerecha.Location = new System.Drawing.Point(342, 161);
+            this.buttonDerecha.Name = "buttonDerecha";
+            this.buttonDerecha.Size = new System.Drawing.Size(94, 47);
+            this.buttonDerecha.TabIndex = 9;
+            this.buttonDerecha.Text = "Derecha";
+            this.buttonDerecha.UseVisualStyleBackColor = false;
+            // 
+            // buttonIzquierda
+            // 
+            this.buttonIzquierda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(51)))));
+            this.buttonIzquierda.FlatAppearance.BorderSize = 0;
+            this.buttonIzquierda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonIzquierda.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonIzquierda.ForeColor = System.Drawing.Color.White;
+            this.buttonIzquierda.Location = new System.Drawing.Point(112, 159);
+            this.buttonIzquierda.Name = "buttonIzquierda";
+            this.buttonIzquierda.Size = new System.Drawing.Size(94, 47);
+            this.buttonIzquierda.TabIndex = 8;
+            this.buttonIzquierda.Text = "Izquierda";
+            this.buttonIzquierda.UseVisualStyleBackColor = false;
+            // 
+            // buttonStop
+            // 
+            this.buttonStop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonStop.FlatAppearance.BorderSize = 0;
+            this.buttonStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStop.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStop.ForeColor = System.Drawing.Color.White;
+            this.buttonStop.Location = new System.Drawing.Point(231, 159);
+            this.buttonStop.Name = "buttonStop";
+            this.buttonStop.Size = new System.Drawing.Size(94, 49);
+            this.buttonStop.TabIndex = 7;
+            this.buttonStop.Text = "Stop";
+            this.buttonStop.UseVisualStyleBackColor = false;
+            // 
+            // buttonAtras
+            // 
+            this.buttonAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.buttonAtras.FlatAppearance.BorderSize = 0;
+            this.buttonAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAtras.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAtras.ForeColor = System.Drawing.Color.White;
+            this.buttonAtras.Location = new System.Drawing.Point(231, 228);
+            this.buttonAtras.Name = "buttonAtras";
+            this.buttonAtras.Size = new System.Drawing.Size(94, 49);
+            this.buttonAtras.TabIndex = 6;
+            this.buttonAtras.Text = "Atras";
+            this.buttonAtras.UseVisualStyleBackColor = false;
+            // 
             // buttonAdelante
             // 
-            this.buttonAdelante.Location = new System.Drawing.Point(225, 72);
+            this.buttonAdelante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.buttonAdelante.FlatAppearance.BorderSize = 0;
+            this.buttonAdelante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdelante.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAdelante.ForeColor = System.Drawing.Color.White;
+            this.buttonAdelante.Location = new System.Drawing.Point(231, 97);
             this.buttonAdelante.Name = "buttonAdelante";
-            this.buttonAdelante.Size = new System.Drawing.Size(85, 38);
+            this.buttonAdelante.Size = new System.Drawing.Size(94, 47);
             this.buttonAdelante.TabIndex = 5;
             this.buttonAdelante.Text = "Adelante";
-            this.buttonAdelante.UseVisualStyleBackColor = true;
+            this.buttonAdelante.UseVisualStyleBackColor = false;
             // 
             // Principal
             // 
@@ -324,6 +393,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxIP;
         private System.Windows.Forms.Button buttonAdelante;
+        private System.Windows.Forms.Button buttonDerecha;
+        private System.Windows.Forms.Button buttonIzquierda;
+        private System.Windows.Forms.Button buttonStop;
+        private System.Windows.Forms.Button buttonAtras;
     }
 }
 
