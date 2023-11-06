@@ -37,7 +37,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.buttonDesconectar = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTitulo = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.labelTitulo = new System.Windows.Forms.Label();
@@ -52,11 +51,14 @@
             this.buttonStop = new System.Windows.Forms.Button();
             this.buttonAtras = new System.Windows.Forms.Button();
             this.buttonAdelante = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTitulo.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -152,16 +154,6 @@
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(220, 140);
             this.panelLogo.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(217, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panelTitulo
             // 
@@ -260,6 +252,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.buttonDerecha);
             this.panel2.Controls.Add(this.buttonIzquierda);
             this.panel2.Controls.Add(this.buttonStop);
@@ -316,6 +309,7 @@
             this.buttonStop.TabIndex = 7;
             this.buttonStop.Text = "Stop";
             this.buttonStop.UseVisualStyleBackColor = false;
+            this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click);
             // 
             // buttonAtras
             // 
@@ -345,6 +339,26 @@
             this.buttonAdelante.Text = "Adelante";
             this.buttonAdelante.UseVisualStyleBackColor = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Proyecto_3.Properties.Resources.st_small_507x507_pad_600x600_f8f8f8_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(540, 338);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 32);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Proyecto_3.Properties.Resources._59cd73ae_02ae_4b03_a4fd_62a34c139327_removebg_preview__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(217, 134);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -363,11 +377,12 @@
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTitulo.ResumeLayout(false);
             this.panelTitulo.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -397,6 +412,7 @@
         private System.Windows.Forms.Button buttonIzquierda;
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.Button buttonAtras;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

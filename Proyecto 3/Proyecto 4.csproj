@@ -94,5 +94,14 @@
   <ItemGroup>
     <None Include="Resources\_7c3e66f2-e801-496f-934e-7278b3a2817d-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_59cd73ae-02ae-4b03-a4fd-62a34c139327-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_small_507x507-pad_600x600_f8f8f8-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,9 +63,39 @@ namespace Proyecto_3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _59cd73ae_02ae_4b03_a4fd_62a34c139327_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("_59cd73ae-02ae-4b03-a4fd-62a34c139327-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _7c3e66f2_e801_496f_934e_7278b3a2817d_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("_7c3e66f2-e801-496f-934e-7278b3a2817d-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("descarga__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap st_small_507x507_pad_600x600_f8f8f8_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("st_small_507x507-pad_600x600_f8f8f8-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

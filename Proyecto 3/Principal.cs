@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
 using System.Net.Http;
+using System.Drawing.Imaging;
 
 namespace Proyecto_3
 {
@@ -115,14 +116,13 @@ namespace Proyecto_3
             //Cierra ventana
         }
 
-        
-
-      
-
-       
-
-        
-
-
+        private async void buttonStop_Click(object sender, EventArgs e)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string url = $"http://{esp8266IpAddress}/stop";
+                await client.GetAsync(url);
+            }
+        }
     }
 }
