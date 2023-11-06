@@ -47,6 +47,7 @@
             this.labelValorhorizontal = new System.Windows.Forms.Label();
             this.labelValorvertical = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonAdelante = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -222,7 +223,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(308, 179);
+            this.button2.Location = new System.Drawing.Point(320, 179);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 49);
             this.button2.TabIndex = 1;
@@ -255,6 +256,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panel2.Controls.Add(this.buttonAdelante);
             this.panel2.Controls.Add(this.labelValorvertical);
             this.panel2.Controls.Add(this.labelValorhorizontal);
             this.panel2.Controls.Add(this.button2);
@@ -264,6 +266,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(580, 370);
             this.panel2.TabIndex = 3;
+            // 
+            // buttonAdelante
+            // 
+            this.buttonAdelante.Location = new System.Drawing.Point(225, 72);
+            this.buttonAdelante.Name = "buttonAdelante";
+            this.buttonAdelante.Size = new System.Drawing.Size(85, 38);
+            this.buttonAdelante.TabIndex = 5;
+            this.buttonAdelante.Text = "Adelante";
+            this.buttonAdelante.UseVisualStyleBackColor = true;
             // 
             // Principal
             // 
@@ -312,6 +323,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxIP;
+        private System.Windows.Forms.Button buttonAdelante;
     }
 }
 
